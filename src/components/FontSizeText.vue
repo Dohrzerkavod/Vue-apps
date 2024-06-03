@@ -24,16 +24,8 @@
           return 'text-7xl';
         } else if (length <= 100) {
           return 'text-6xl';
-        } else if (length <= 130) {
+        } else  {
           return 'text-5xl';
-        } else if (length <= 170) {
-          return 'text-4xl';
-        } else if (length <= 210) {
-          return 'text-3xl';
-        } else if (length <= 260) {
-          return 'text-2xl';
-        } else {
-          return 'text-xl';
         }
       },
       lineHeightStyle() {
@@ -54,18 +46,6 @@
             break;
             case 'text-5xl':
             fontSize = 3; // 3rem for text-5xl
-            break;
-            case 'text-4xl':
-            fontSize = 2.25; // 2.25rem for text-4xl
-            break;
-            case 'text-3xl':
-            fontSize = 1.875; // 1.875rem for text3xl
-            break;
-            case 'text-2xl':
-            fontSize = 1.5; // 1.5rem for text-2xl
-            break;
-          case 'text-xl':
-            fontSize = 1.25; // 1.25rem for text-xl
             break;
         }
         return {
