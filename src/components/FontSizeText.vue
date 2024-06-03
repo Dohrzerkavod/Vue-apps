@@ -1,5 +1,5 @@
 <template>
-    <div :class="fontClass" :style="lineHeightStyle">
+    <div :class="['mx-auto', fontClass]" :style="lineHeightStyle">
       {{ text }}
     </div>
   </template>
