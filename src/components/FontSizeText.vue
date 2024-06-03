@@ -18,19 +18,19 @@
         const length = this.text.length;
         if (length <= 10) {
           return 'text-9xl'; // Updated largest font size
-        } else if (length <= 20) {
-          return 'text-8xl';
         } else if (length <= 30) {
-          return 'text-7xl';
-        } else if (length <= 40) {
-          return 'text-6xl';
+          return 'text-8xl';
         } else if (length <= 50) {
-          return 'text-5xl';
-        } else if (length <= 60) {
-          return 'text-4xl';
+          return 'text-7xl';
         } else if (length <= 70) {
+          return 'text-6xl';
+        } else if (length <= 90) {
+          return 'text-5xl';
+        } else if (length <= 110) {
+          return 'text-4xl';
+        } else if (length <= 130) {
           return 'text-3xl';
-        } else if (length <= 80) {
+        } else if (length <= 150) {
           return 'text-2xl';
         } else {
           return 'text-xl';
