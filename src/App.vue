@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="flex items-center justify-center min-h-screen p-4">
+    <div class="text-center">
+      <div class="mb-4">
+        <input
+          v-model="inputText"
+          type="text"
+          placeholder="Enter text"
+          class="border p-2 w-full"
+        />
+      </div>
+      <div class="mt-12">
+        <FontSizeText :text="inputText" />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FontSizeText from './components/FontSizeText.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FontSizeText
+  },
+  data() {
+    return {
+      inputText: ''
+    };
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Optional global styles */
 </style>
