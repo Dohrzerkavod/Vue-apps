@@ -1,8 +1,8 @@
 {
   "name": "my-vue-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://github.com/Dohrzerkavod/Vue-apps",
+  "private": "true",
+  "homepage": "https://Dohrzerkavod.github.io/Vue-apps",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

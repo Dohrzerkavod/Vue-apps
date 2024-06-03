@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="flex items-center justify-center min-h-screen p-4">
-    <div class="text-center">
+    <div class="text-center max-w-screen-md">
       <div class="mb-4">
         <input
           v-model="inputText"
