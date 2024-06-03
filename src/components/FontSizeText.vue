@@ -41,15 +41,27 @@
         let fontSize = 1; // Default font size
         switch (fontSizeClass) {
           case 'text-9xl':
-            fontSize = 6; // 6rem for text-9xl
+            fontSize = 8; // 8rem for text-9xl
             break;
-          case 'text-6xl':
+            case 'text-8xl':
+            fontSize = 6; // 6rem for text-8xl
+            break;
+            case 'text-7xl':
+            fontSize = 4.5; // 4.5rem for text-7xl
+            break;
+            case 'text-6xl':
             fontSize = 3.75; // 3.75rem for text-6xl
             break;
-          case 'text-4xl':
+            case 'text-5xl':
+            fontSize = 3; // 3rem for text-5xl
+            break;
+            case 'text-4xl':
             fontSize = 2.25; // 2.25rem for text-4xl
             break;
-          case 'text-2xl':
+            case 'text-3xl':
+            fontSize = 1.875; // 1.875rem for text3xl
+            break;
+            case 'text-2xl':
             fontSize = 1.5; // 1.5rem for text-2xl
             break;
           case 'text-xl':
